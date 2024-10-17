@@ -1,0 +1,36 @@
+.news {
+  padding-top: 20px;
+  .mr-2 {
+    margin-right: 20px;
+  }
+  header {
+    margin-bottom: 30px;
+    h2 {
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+  .table {
+    tr {
+      th {
+        background-color: #ff7a00;
+        color: #fff;
+        padding: 20px 10px;
+      }
+    }
+  }
+  .btn.btn-outline-primary {
+    &:hover {
+      background-color: transparent !important;
+    }
+    a {
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+}
+.modal-body {
+  color: black;
+}

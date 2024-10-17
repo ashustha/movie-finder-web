@@ -1,0 +1,38 @@
+//overwrite theme variables
+
+$primary : #FF7A00;
+$black : #1e1e1e;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import './../node_modules/bootstrap/scss/bootstrap.scss';
+@import './App.scss';
+
+//--------Components-----------------------------------//
+@import './components/MovieCard/MovieCard.module.scss';
+@import './components/MovieInfo/MovieInfo.module.scss';
+@import './components/SectionTitle/SectionTitle.module.scss';
+
+
+
+//--------UI-----------------------------------//
+@import './ui/TopRatedMovies/TopRatedMovies.scss';
+@import './ui/movieBanner/MovieBanner.module.scss';
+@import './ui/topBoxOffice/TopBoxOffice.module.scss';
+@import './ui/moreToExplore/MoreToExplore.module.scss';
+@import './ui/inTheaters/InTheaters.module.scss';
+@import './ui/comingSoon/ComingSoon.module.scss';
+@import './ui/footer/Footer.module.scss';
+@import './ui/newsList/NewsList.module.scss';
+@import './ui/topNavbar/TopNavbar.module.scss';
+@import './ui/search/Search.module.scss';
+@import './ui/Watchlist/Watchlist.module.scss';
+
+
+
+//-------------Pages-------------------------------//
+@import './pages/Register/Register.module.scss';
+@import './pages/Login/Login.module.scss';
+@import './pages/Profile/Profile.module.scss';
+@import './pages/movieDetail/MovieDetail.module.scss';
+@import './pages/SearchResult/SearchResult.module.scss';

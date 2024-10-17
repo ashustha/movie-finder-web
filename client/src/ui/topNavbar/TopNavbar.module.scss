@@ -1,0 +1,28 @@
+.topNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    figure{
+        img{
+            width: 200px;
+        }
+    }
+    .auth{
+        ul{
+            display: flex;
+            gap: 20px;
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+            .dropdown-item{
+                a{
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}

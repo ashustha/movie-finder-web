@@ -1,0 +1,29 @@
+.movieInfo{
+    color: #ffffff;
+    .detail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        max-width: 240px;
+        min-width: 240px;
+        .rated{
+            background-color: #ffffff;
+            color: $black;
+            font-size: 12px;
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+    }
+    .genre{
+        ul{
+            li{
+                display: inline-block;
+                margin-right: 12px;
+                letter-spacing: 1;
+                font-weight: 300;
+                font-size: 12px;
+            }
+        }
+    }
+}

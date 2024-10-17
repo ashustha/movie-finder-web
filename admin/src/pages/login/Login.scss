@@ -1,0 +1,24 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    h2{
+        font-size: 34px;
+        color: #FF7A00;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .loginButton{
+        color: #fff;
+    }
+    .loginForm{
+        background-color: #fff;
+        padding: 40px;
+        color: #000;
+        border-radius: 4px;
+
+    }
+}

@@ -1,0 +1,40 @@
+.moreToExplore{
+    &--wrapper{
+        ul{
+            li{
+                margin-bottom:20px;
+                h3{
+                    font-size: 32px;
+                    font-weight: 700;
+                    padding-bottom: 8px;
+                    a{
+                        text-decoration: none;
+                        .arrow-icon{
+                            transition: margin-left 0.4s ease;
+                        }
+                        &:hover{
+                            color: $primary;
+                            .arrow-icon{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+                p{
+                    font-size: 12px;
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}
+
+
+//   .moreToExplore--wrapper ul li h3 .arrow-icon {
+//     transition: margin-left 0.4s ease; /* Smooth transition */
+//   }
+  
+//   .moreToExplore--wrapper ul li h3 a:hover .arrow-icon {
+//     margin-left: 5px;
+//   }

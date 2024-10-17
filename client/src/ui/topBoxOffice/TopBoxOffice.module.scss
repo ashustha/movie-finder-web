@@ -1,0 +1,52 @@
+.topBoxOffice {
+  &--wrapper {
+    .movieList {
+      a {
+        text-decoration: none;
+      }
+      .movie {
+        background-color: #ffffff;
+        color: $black;
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        figure {
+          flex: 1;
+          img {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            height: 100%;
+            background: black;
+          }
+        }
+        .card--text {
+          flex: 2;
+          padding: 10px;
+          h3 {
+            font-size: 20px;
+            margin-bottom: 13px;
+          }
+          ul {
+            li {
+              padding-bottom: 8px;
+              span {
+                font-weight: 500;
+                font-size: 12px;
+                letter-spacing: 0.5px;
+              }
+            }
+          }
+          .movieInfo {
+            color: $black;
+            .detail {
+              .rated {
+                background-color: $black;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.changePassword {
+  color: $black;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  h2 {
+    font-size: 32px;
+    color: $primary;
+  }
+  .dropdown-toggle {
+    color: #ffffff;
+  }
+  .dropdown-menu {
+    .dropdown-item {
+      padding: 10px 10px;
+      &:hover {
+        background-color: $primary;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.bannlist {
+  ol {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

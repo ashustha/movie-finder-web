@@ -1,0 +1,16 @@
+.login{
+    background-color: #ffffff;
+    color: $black;
+    padding: 30px;
+    border-radius: 4px;
+    &-wrapper{
+        input{
+            border-radius: 4px;
+            height: 45px;
+        }
+        .btn-primary{
+            color: #ffffff;
+        }
+
+    }
+}

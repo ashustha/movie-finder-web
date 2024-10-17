@@ -1,0 +1,93 @@
+.search{
+    padding: 13px 0px;
+    margin-bottom: 20px;
+    &-wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .form-control{
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+        }
+        .dropdown-toggle{
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            padding: 0 35px;
+        }
+        .searchButton{
+            border-top-right-radius: 50px!important;
+            border-bottom-right-radius: 50px!important;
+            padding: 0 35px;
+        }
+        .input-group{
+            .btn-outline-secondary{
+                background-color: $primary;
+                border: none;
+                color: #fff;
+            }
+            input{
+                &::placeholder{
+                    font-size: 14px;
+                    letter-spacing: 0.4px;
+                    font-weight: 300;
+                    color: #6a6a6a;
+                }
+            }
+            max-width: 600px;
+        }
+        &:last-child{
+            align-self: flex-end;
+        }
+        .advanceSearch{
+            color: $primary;
+            cursor: pointer;
+            align-self: flex-end;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.modal-content{
+    .modal-title{
+        color: $primary;
+    }
+    h3{
+        color: $primary;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        color: #6a6a6a;
+        border: none;
+        &:hover{
+            background-color: $primary;
+            color: #ffffff;
+        }
+        &.active{
+            color: $primary;
+            background-color: transparent;
+            &:hover{
+                background-color: $primary;
+                color: #ffffff;
+            }
+        }
+    }
+    .tab-content{
+        ul{
+            margin-bottom: 20px;
+            column-count: 2;
+            li,.nav-link{
+                color: #6a6a6a;
+                padding: 10px 10px;
+                &:hover{
+                    background-color: $primary;
+                    color: #ffffff;
+                    cursor: pointer;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}

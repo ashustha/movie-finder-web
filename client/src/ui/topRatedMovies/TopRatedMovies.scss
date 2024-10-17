@@ -1,0 +1,24 @@
+.topRatedMovies{
+    padding: 36px 0;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+        span{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        h2{
+            font-size: 24px;
+            color: $primary;
+        }
+        a{
+            text-decoration: none;
+            font-size: 12px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
